@@ -1,11 +1,11 @@
 @font-face {
-    font-family: "runescape";
+    font-family: "minecraftFont";
     src: url("/static/fonts/minecraftFont.ttf") format("truetype");
     font-weight: normal;
     font-style: normal
 }
 
-.runescape {
+.minecraftFont {
     font-family: "minecraftFont";
     color: #0da81f
 }

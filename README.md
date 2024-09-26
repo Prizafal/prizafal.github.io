@@ -1,5 +1,5 @@
-# alexflipnote.github.io
-This is my personal website that is shown at https://alexflipnote.dev. It works by compiling Jinja2 and then pushing the static files to GitHub Pages using automatic workflows. The website does only use static components, so I take advantage of Jinja2 to make it easier for me to write websites easily with syntaxes.
+# prizafal.com
+This is my personal website that is shown at https://prizafal.com. I forked this from AlexFlipnote and edited it to make it partially my own using a fair chunk of his code.
 
 ## Requirements
 - Python 3.6 or above

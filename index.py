@@ -36,7 +36,7 @@ def branding_builder(name: str):
 
 build.generate(
     debug=False if argument == "build" else True,
-    URL="https://alexflipnote.dev/", data=data,
+    URL="https://prizafal.github.io", data=data,
     branding_builder=branding_builder,
     playground_names=playground_names,
     minify_html=True

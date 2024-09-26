@@ -1,71 +1,79 @@
 <html>
-  <head>
-    {% set title = "AlexFlipnote" %}
-    {% set desc = "My personal homepage" %}
-    {% set path = "/" %}
-    {% include "components/_head.html" %}
-    <link href = "static/css/custom.css" type = "text/css" rel = "stylesheet">
-    <link href = "static/css/modesta.css" type = "text/css" rel = "stylesheet">
-    <link href = "static/css/emojis.css" type = "text/css" rel = "stylesheet"> 
-  </head>
-  <body class="dark-theme github">
-    <div class="fullscreen">
-      <div class="background" style="background-image: url('/static/images/background.jpg');"></div>
-      <div class="center-object">
-        <div class="container">
-          <section class="me unset">
-            <div class="avatar-container">
-              <img
-                draggable="false" class="image-title primary-bg"
-                src="/static/images/avatar.png" id="discord-avatar"
-              >
-            </div>
-            <div class="unset">
-              <h1 class="title dropshadow-small">Prizafal</h1>
-              <p class="undertitle minecraftFont dropshadow-medium" id="description idk">
-                idk what to put here ngl
-              </p>
-            </div>
-          </section>
-          <div class="buttons">
-            <a href="https://discord.gg/DpxkY3x" class="btn discord-dropshadow white-text animation hover" target="_blank">Discord</a>
-            <a href="mailto:root@prizafal.com" class="btn emerald-dropshadow black-text animation hover">Email</a>
-            <a href="https://github.com/Prizafal" class="btn github-dropshadow white-text animation hover" target="_blank">GitHub</a>
+
+<head>
+  {% set title = "AlexFlipnote" %}
+  {% set desc = "My personal homepage" %}
+  {% set path = "/" %}
+  {% include "components/_head.html" %}
+  <link href="static/css/custom.css" type="text/css" rel="stylesheet">
+  <link href="static/css/modesta.css" type="text/css" rel="stylesheet">
+  <link href="static/css/emojis.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="dark-theme github">
+  <div class="fullscreen">
+    <div class="background" style="background-image: url('/static/images/background.jpg');"></div>
+    <div class="center-object">
+      <div class="container">
+        <section class="me unset">
+          <div class="avatar-container">
+            <img draggable="false" class="image-title primary-bg" src="/static/images/avatar.png" id="discord-avatar">
           </div>
+          <div class="unset">
+            <h1 class="title dropshadow-small">Prizafal</h1>
+            <p class="undertitle minecraftFont dropshadow-medium" id="description idk">
+              idk what to put here ngl
+            </p>
+          </div>
+        </section>
+        <div class="buttons">
+          <a href="https://discord.gg/DpxkY3x" class="btn discord-dropshadow white-text animation hover"
+            target="_blank">Discord</a>
+          <a href="mailto:root@prizafal.com" class="btn emerald-dropshadow black-text animation hover">Email</a>
+          <a href="https://github.com/Prizafal" class="btn github-dropshadow white-text animation hover"
+            target="_blank">GitHub</a>
         </div>
       </div>
-
-      <a href="#information">
-        <div id="arrow" class="arrow bounce">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.32 291.98" class="white-fill">
-            <path d="M466.5,15.5L466,15c-19.8-19.8-52-19.8-71.9,0L240.8,168.3L87.2,14.8C67.4-5,35.2-5,15.4,14.8l-0.5,0.5 C-5,35.2-5,67.4,14.8,87.2l186.6,186.6c0.9,1,1.8,2,2.7,3v0c3.8,3.8,8.1,6.9,12.7,9.3c17,9,38.1,7.7,53.9-3.9 c2.2-1.6,4.4-3.4,6.4-5.4L466.5,87.4C486.4,67.6,486.4,35.4,466.5,15.5z"/>
-          </svg>
-        </div>
-      </a>
     </div>
 
-    <section class="container" id="information">
+    <a href="#information">
+      <div id="arrow" class="arrow bounce">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 481.32 291.98" class="white-fill">
+          <path
+            d="M466.5,15.5L466,15c-19.8-19.8-52-19.8-71.9,0L240.8,168.3L87.2,14.8C67.4-5,35.2-5,15.4,14.8l-0.5,0.5 C-5,35.2-5,67.4,14.8,87.2l186.6,186.6c0.9,1,1.8,2,2.7,3v0c3.8,3.8,8.1,6.9,12.7,9.3c17,9,38.1,7.7,53.9-3.9 c2.2-1.6,4.4-3.4,6.4-5.4L466.5,87.4C486.4,67.6,486.4,35.4,466.5,15.5z" />
+        </svg>
+      </div>
+    </a>
+  </div>
 
-      <div class="box-container">
-        <h1 class="title emerald-text">Information:</h1>
-        <div class="info-container"><p>
-          Hi I'm <span class="green-text">Prizafal</span>, a lot of people just call me Priz. I've been in various corners of the internet for about a decade now, starting off on Minecraft
-          and making my way to Discord at the tail end of 2015. I'm a uni student going for a Bachelor of Science in <span class="light-blue-text">Cybersecruity</span>. 
+  <section class="container" id="information">
+
+    <div class="box-container">
+      <h1 class="title emerald-text">Information:</h1>
+      <div class="info-container">
+        <p>
+          Hi I'm <span class="green-text">Prizafal</span>, a lot of people just call me Priz. I've been in various
+          corners of the internet for about a decade now, starting off on Minecraft
+          and making my way to Discord at the tail end of 2015. I'm a uni student going for a Bachelor of Science in
+          <span class="light-blue-text">Cybersecruity</span>.
           I have experience with HMTL, CSS, Java, and Python and am probably gonna learn some more... eventually.
-        </p></div>
+        </p>
       </div>
+    </div>
 
-      <div class="box-container">
-        <h1 class="title emerald-text"> Projects:</h1>
-        <div class="info-container">
-          {% for g in data.projects_list %}
-            <p><a href="{{ g.url }}" target="_blank">{{ g.name }}</a>, {{ g.desc }}</p>
-          {% endfor %}
-        </div>
+    <div class="box-container">
+      <h1 class="title emerald-text"> Projects:</h1>
+      <div class="info-container">
+        {% for g in data.projects_list %}
+        <p><a href="{{ g.url }}" target="_blank">{{ g.name }}</a>, {{ g.desc }}</p>
+        {% endfor %}
+
       </div>
+    </div>
 
-      <hr>
-    </section>
-    {% include "components/_footer.html" %}
-  </body>
+    <hr>
+  </section>
+  {% include "components/_footer.html" %}
+</body>
+
 </html>

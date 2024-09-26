@@ -707,6 +707,14 @@ form {
     filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6)) brightness(50%)
 }
 
+.btn.mozilla-dropshadow:hover{
+    filter: drop-shadow(5px 5px 0 rgba(89, 42, 203, 1)) brightness(50%);
+}
+
+.btn.cuisinart-dropshadow:hover{
+    filter: drop-shadow(5px 5px 0 rgba(133, 133, 133, 1)) brightness(50%)
+}
+
 .btn.facebook-dropshadow:hover {
     filter: drop-shadow(5px 5px 0 rgba(59, 89, 152, 0.6)) brightness(50%)
 }
@@ -2857,6 +2865,16 @@ form {
 .discord-dropshadow {
     background-color: #7289da;
     filter: drop-shadow(5px 5px 0 rgba(114, 137, 218, 0.6))
+}
+
+.btn.mozilla-dropshadow{
+    background-color: #9059ff;
+    filter: drop-shadow(5px 5px 0 rgba(89, 42, 203, 1)) brightness(100%);
+}
+
+.btn.cuisinart-dropshadow{
+    background-color: #bbbeba;
+    filter: drop-shadow(5px 5px 0 rgba(133, 133, 133, 1)) brightness(100%);
 }
 
 .facebook-text {

@@ -2309,6 +2309,14 @@ form {
     color: #2ecc71
 }
 
+.green-text {
+    color: #025224
+}
+
+.light-blue-text {
+    color: rgb(32, 96, 127)
+}
+
 .emerald-bg {
     background-color: #2ecc71
 }

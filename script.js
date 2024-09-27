@@ -21,8 +21,6 @@ window.onload = function() {
         "black and orange youtube",
         "i might be stupid",
         "so... hows the weather",
-        'Click <a href="index.html">here</a> for a cookie',
-        'Click <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a> for a cookie',
         "This is not the webpage you are looking for",
         "Have you ever heard the tradgedy of Darth Plageius the Wise?",
         "[insert funny comment here]"

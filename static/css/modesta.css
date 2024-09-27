@@ -1126,7 +1126,7 @@ form {
 }
 
 .fullscreen.half .center-object .me .undertitle {
-    font-size: 1.75rem
+    font-size: 1rem
 }
 
 .me {
@@ -1185,7 +1185,7 @@ form {
 }
 
 .me .undertitle {
-    font-size: 2rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     margin: 0
 }

@@ -3,6 +3,8 @@ window.onload = function() {
         "idk what to put here ngl",
         "WTF is a dumbass",
         "🍞",
+        "🍞🍞🍞",
+        "🍞🍞🍞🍞🍞🍞🍞🍞🍞🍞",
         "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
         "sudo rm -rf */",
         "read the fucking docs (RTFD)",

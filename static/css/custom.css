@@ -166,7 +166,7 @@ a {
 }
 
 .me .undertitle {
-    max-width: 550px;
+    max-width: 1000px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap

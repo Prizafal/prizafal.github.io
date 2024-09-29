@@ -79,7 +79,6 @@ window.onload = function() {
         "Absolutely no memes!",
         "Free dental!",
         "Ask your doctor!",
-        "Minors welcome!",
         "Cloud computing!",
         "Legal in Finland!",
         "Hard to label!",

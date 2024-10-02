@@ -23,6 +23,33 @@ html {
     background-color: #000
 }
 
+.unset {
+    width: 100%; /* Make sure the container takes up the full width */
+  }
+  
+  h1.title {
+    font-size: 3rem; /* Default font size */
+    word-wrap: break-word; /* Ensure long words wrap properly */
+    white-space: normal; /* Allow normal text wrapping */
+  }
+  
+  p.undertitle {
+    font-size: 1.5rem; /* Default font size */
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    h1.title {
+      font-size: 2rem; /* Decrease font size on small screens */
+    }
+  
+    p.undertitle {
+      font-size: 1rem; /* Decrease font size on small screens */
+    }
+  }
+  
+
 .click-to-start {
     position: absolute;
     width: 100%;

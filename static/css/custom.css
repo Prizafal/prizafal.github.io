@@ -204,7 +204,7 @@ a {
     max-width: 1000px;
     text-overflow: ellipsis;
     overflow: hidden;
-    white-space: nowrap
+    white-space: break-word;
 }
 
 footer p {

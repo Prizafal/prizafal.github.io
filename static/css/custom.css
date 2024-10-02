@@ -118,6 +118,14 @@ a {
 .colour-margin-top {
     margin-top: 2em
 }
+  
+  @media only screen and (max-width: 600px) {
+    .cuisinart-dropshadow {
+      display: block;
+      width: 100%; /* Adjust width as needed */
+    }
+  }
+  
 
 .col-no-padding {
     padding-left: 0 !important;

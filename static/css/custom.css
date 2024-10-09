@@ -23,32 +23,49 @@ html {
     background-color: #000
 }
 
+.btn {
+    font-size: 16px; /* Default font size */
+    padding: 10px 20px; /* Default padding */
+}
+
+/* Mobile-specific styling */
+@media (max-width: 600px) {
+    .btn {
+        font-size: 12px; /* Smaller font size for mobile */
+        padding: 5px 10px; /* Reduced padding for mobile */
+    }
+
+    img {
+        height: 50px; /* Reduced size on mobile */
+    }
+}
+
 .unset {
     width: 100%; /* Make sure the container takes up the full width */
   }
-  
+
   h1.title {
     font-size: 3rem; /* Default font size */
     word-wrap: break-word; /* Ensure long words wrap properly */
     white-space: normal; /* Allow normal text wrapping */
   }
-  
+
   p.undertitle {
     font-size: 1.5rem; /* Default font size */
     word-wrap: break-word;
     white-space: normal;
   }
-  
+
   @media only screen and (max-width: 600px) {
     h1.title {
       font-size: 2rem; /* Decrease font size on small screens */
     }
-  
+
     p.undertitle {
       font-size: 1rem; /* Decrease font size on small screens */
     }
   }
-  
+
 
 .click-to-start {
     position: absolute;
@@ -145,14 +162,14 @@ a {
 .colour-margin-top {
     margin-top: 2em
 }
-  
+
   @media only screen and (max-width: 600px) {
     .cuisinart-dropshadow {
       display: block;
       width: 100%; /* Adjust width as needed */
     }
   }
-  
+
 
 .col-no-padding {
     padding-left: 0 !important;

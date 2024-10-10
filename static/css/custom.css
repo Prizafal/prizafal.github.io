@@ -92,60 +92,6 @@ p.undertitle {
     cursor: pointer
 }
 
-/* Ensure the entire screen is being used */
-.fullscreen {
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Style the background */
-.background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    z-index: 0;
-}
-
-/* Position the center object */
-.center-object {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-/* Ensure the container is centered */
-.container {
-    text-align: center;
-}
-
-/* Style for the centered box */
-.center-box {
-    width: 400px; /* Adjust the size of the box */
-    height: 200px;
-    background-color: lightblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid black;
-    z-index: 2; /* Make sure the box is above the background */
-}
-
-/* Additional styles, if necessary */
-p {
-    font-size: 20px;
-    color: black;
-}
-
-
 .click-to-start+.fullscreen {
     filter: blur(10px)
 }

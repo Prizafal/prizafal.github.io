@@ -24,47 +24,59 @@ html {
 }
 
 .btn {
-    font-size: 16px; /* Default font size */
-    padding: 10px 20px; /* Default padding */
+    font-size: 16px;
+    /* Default font size */
+    padding: 10px 20px;
+    /* Default padding */
 }
 
 /* Mobile-specific styling */
 @media (max-width: 600px) {
     .btn {
-        font-size: 12px; /* Smaller font size for mobile */
-        padding: 5px 10px; /* Reduced padding for mobile */
+        font-size: 12px;
+        /* Smaller font size for mobile */
+        padding: 5px 10px;
+        /* Reduced padding for mobile */
     }
 
     img {
-        height: 50px; /* Reduced size on mobile */
+        height: 50px;
+        /* Reduced size on mobile */
     }
 }
 
 .unset {
-    width: 100%; /* Make sure the container takes up the full width */
-  }
+    width: 100%;
+    /* Make sure the container takes up the full width */
+}
 
-  h1.title {
-    font-size: 3rem; /* Default font size */
-    word-wrap: break-word; /* Ensure long words wrap properly */
-    white-space: normal; /* Allow normal text wrapping */
-  }
+h1.title {
+    font-size: 3rem;
+    /* Default font size */
+    word-wrap: break-word;
+    /* Ensure long words wrap properly */
+    white-space: normal;
+    /* Allow normal text wrapping */
+}
 
-  p.undertitle {
-    font-size: 1.5rem; /* Default font size */
+p.undertitle {
+    font-size: 1.5rem;
+    /* Default font size */
     word-wrap: break-word;
     white-space: normal;
-  }
+}
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     h1.title {
-      font-size: 2rem; /* Decrease font size on small screens */
+        font-size: 2rem;
+        /* Decrease font size on small screens */
     }
 
     p.undertitle {
-      font-size: 1rem; /* Decrease font size on small screens */
+        font-size: 1rem;
+        /* Decrease font size on small screens */
     }
-  }
+}
 
 
 .click-to-start {
@@ -78,6 +90,22 @@ html {
     justify-content: center;
     z-index: 200;
     cursor: pointer
+}
+
+.center-box {
+    .center-box {
+        width: 400px;
+        /* Adjust the size of the box */
+        height: 300px;
+        background-color: lightblue;
+        /* You can change this */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        font-size: 24px;
+    }
+
 }
 
 .click-to-start+.fullscreen {
@@ -163,12 +191,13 @@ a {
     margin-top: 2em
 }
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .cuisinart-dropshadow {
-      display: block;
-      width: 100%; /* Adjust width as needed */
+        display: block;
+        width: 100%;
+        /* Adjust width as needed */
     }
-  }
+}
 
 
 .col-no-padding {

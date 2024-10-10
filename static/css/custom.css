@@ -92,7 +92,6 @@ p.undertitle {
     cursor: pointer
 }
 
-.center-box {
     .center-box {
         width: 400px;
         /* Adjust the size of the box */
@@ -105,8 +104,6 @@ p.undertitle {
         border: 2px solid black;
         font-size: 24px;
     }
-
-}
 
 .click-to-start+.fullscreen {
     filter: blur(10px)

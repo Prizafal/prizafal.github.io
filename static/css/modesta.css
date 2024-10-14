@@ -1060,7 +1060,7 @@ form {
     align-items: center;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 100vh;
     justify-content: center;
     position: absolute;
     top: 0;
@@ -1139,7 +1139,8 @@ form {
 }
 
 .me.unset {
-    flex-direction: unset
+    flex-direction: unset;
+    text-align: center;
 }
 
 .me.unset .image-title {

@@ -711,6 +711,10 @@ form {
     filter: drop-shadow(5px 5px 0 rgba(89, 42, 203, 1)) brightness(50%);
 }
 
+.btn.cashapp-dropshadow:hover{
+    filter: drop-shadow(5px 5px 0 rgba(90, 218, 134, 1)) brightness(50%);
+}
+
 .btn.cuisinart-dropshadow:hover{
     filter: drop-shadow(5px 5px 0 rgba(133, 133, 133, 1)) brightness(50%)
 }
@@ -2871,6 +2875,11 @@ form {
 .btn.mozilla-dropshadow{
     background-color: #9059ff;
     filter: drop-shadow(5px 5px 0 rgba(89, 42, 203, 1)) brightness(100%);
+}
+
+.btn.cashapp-dropshadow{
+    background-color: #5ada86;
+    filter: drop-shadow(5px 5px 0 #01d449) brightness(100%);
 }
 
 .btn.cuisinart-dropshadow{

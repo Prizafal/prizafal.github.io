@@ -13,79 +13,36 @@
 html {
     scroll-behavior: smooth;
 }
-
-html,
-body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    width: auto;
-}
-
-body {
-    font-size: 16px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-}
-
-pre {
-    font-size: xx-small;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-size: 1.5rem;
-}
-
-.element-class {
-    font-size: 1rem;
-}
-
-@media (min-width: 768px) {
-
-    /* Styles for larger screens */
-    body {
-        font-size: 18px;
+@media screen and (max-width: 768px) {
+    .center-object {
+      padding: 20px;
     }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        font-size: 2rem;
+    .avatar-container {
+      text-align: center;
+      margin-bottom: 20px;
     }
 
-    .element-class {
-        font-size: 1.2rem;
+    .image-title {
+      max-width: 150px;
+      height: auto
     }
 
-}
+    .title, .undertitle {
+      text-align: center;
+      padding: 0 !important;
+    }
 
-/* General Styles */
-html,
-body {
-    max-width: 100%;
-}
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
-body {
-    text-align: center;
-    -webkit-user-select: none;
-    -moz-user-select: -moz-none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-a {
-    text-decoration: none;
-}
-
+    .btn {
+      margin: 5px;
+    }
+  }
 .black-theme {
     background-color: #000;
     color: #fff
@@ -111,10 +68,6 @@ a {
         /* Reduced padding for mobile */
     }
 
-    img {
-        height: 50px;
-        /* Reduced size on mobile */
-    }
 }
 
 .unset {

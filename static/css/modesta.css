@@ -2880,6 +2880,8 @@ form {
 .btn.cashapp-dropshadow{
     background-color: #5ada86;
     filter: drop-shadow(5px 5px 0 #01d449) brightness(100%);
+    background-size: auto;
+    width: fit-content
 }
 
 .btn.cuisinart-dropshadow{

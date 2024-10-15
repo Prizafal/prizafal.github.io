@@ -473,8 +473,6 @@ window.onload = function() {
         "Sniff sniff...",
         "Place hanging sign here",
         "Joule is neat too!"
-
-
     ];
 
     const randomIndex = Math.floor(Math.random() * texts.length);

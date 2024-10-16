@@ -2873,8 +2873,8 @@ form {
 }
 
 .btn.mozilla-dropshadow{
-    background-color: #FCE043;
-    filter: drop-shadow(5px 5px 0 #FE344A) brightness(100%);
+    background-color: #FE9F14;
+    filter: drop-shadow(5px 5px 0 #F44B4C) brightness(100%);
 }
 
 .btn.email-dropshadow{

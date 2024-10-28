@@ -114,70 +114,75 @@
         </p><br>
         <div class="buttons">
           <textarea id="ntfy-input" placeholder="type here to send me a notif"></textarea>
-          <br><button onclick="javascript:sendNotification()" style="margin-left:10px;">Send</button>
+          <br>
+          <button onclick="javascript:sendNotification()" style="margin-left:10px;">Send</button>
           <script>
             // both
             function send(message) {
-              let r = new XMLHttpRequest()
-              r.open("POST", "https://ntfy.sh/prizafal", true)
-              r.setRequestHeader("Content-Type", "text/plain")
-              r.send(message)
+              let r = new XMLHttpRequest();
+              r.open("POST", "https://ntfy.sh/prizafal", true);
+              r.setRequestHeader("Content-Type", "text/plain");
+              r.send(message);
             }
+
             // send notification
-            let ntfyInput = document.getElementById("ntfy-input")
+            let ntfyInput = document.getElementById("ntfy-input");
             function sendNotification() {
-              if (ntfyInput.value.length <= 0) return send(ntfyInput.value) ntfyInput.value = ""
+              if (ntfyInput.value.length <= 0) return;  // Corrected this line
+              send(ntfyInput.value);  // Call send only if the input is not empty
+              ntfyInput.value = "";    // Clear the input after sending
             }
           </script>
         </div>
       </div>
+    </div>
 
-      <div class="box-container">
-        <h1 class="title emerald-text"> Places I staff:</h1>
-        <div class="info-container" style="text-align: center">
-          <p> <img src="static/images/PHLogo.png" alt="Pornhub Logo" height=25 width="25"> <a
-              href="https://discord.gg/pornhub">Pornhub</a> - I am an Administrator for their official Discord server,
-            where I am in charge of the backend server management and bot configuration, using tools built by me and
-            other
-            administrators as well as tools provided by Discord and external developers to assist the moderation team in
-            the day to day operations of the server. </p><br>
-          <p> <img src="static/images/TTLogo.webp" alt="Ticket Tool Logo" height="25" width="25"> <a
-              href="https://tickettool.xyz">Ticket Tool</a> - Ticket Tool is the #1 ticket management service on
-            Discord,
-            being used in over 3.6 million servers. As the Head Moderator and a Support Team Supervisor at Ticket Tool,
-            in
-            additon normal moderation and support duties, I am in charge of managing the Support and Moderation team. I
-            am
-            also a member of the Documentation team, in charge of ensuring the <a
-              href="https://docs.tickettool.xyz">Documentation</a> is up to date.</p><br>
-          <p> <img src="static/images/xelaLogo.png" alt="xelA Logo" height="25" width="25"> <a
-              href="https://xela.dev">xelA</a> - xelA is a multipurpose Discord bot aiming to be the last Discord bot
-            you'll ever need. As the "daemon" of xelA I am in charge of managing the Suport and Whitelisting team
-            ("sudos"), reporting directly to the Community Manager ("sys")</p><br>
-          <p> <img src="static/images/BattlechestLogo.webp" alt="Battlechest Logo" height="25" width="25"> <a
-              href="https://discord.com/invite/battlechest">Battlechest</a> - Battlechest is an Indian Esports
-            Tournament
-            Organizer. As Battlechest's Human Resource Manager I am in charge of the onboarding and offboarding of all
-            staff members. I am also in charge of the staff team's training and internal documentation. </p><br>
-          <p> <img src="static/images/revivalLogo.gif" alt="Revival Logo" height="25" width="25"> <a
-              href="https://discord.gg/revivalgg">Revival</a> - Revival is a multifaceted, multileveled gaming community
-            going from one game to the next as their interest waxes and wanes. At Revival I am a member of the High
-            Council, making strategic decsisions for the future of the clan as well as being the clan's Discord
-            Adminstrator, in charge of all facets of their Discord Server</p><br>
-          <p> <img src="static/images/PDAPlogo.png" alt="Police Data Accessability Project Logo" height="25" width="25">
-            <a href="https://pdap.io">Police Data Accessibility Project</a> - The Police Data Accessability Project is a
-            movement focusing on making police data easily available and viewable by the public. As their Discord
-            Administrator, I am in charge of making sure their Discord server is functional and following best
-            practices.
-          </p><br>
-          <p> <img src="static/images/InProgLogo.png" alt="InProgProj Logo" height="25" width="25"> I have a project I
-            am
-            working on with <a href="https://github.com/Yareaj">Yareaj</a> that I can't say too much about yet... stay
-            tuned 👀
-        </div>
+    <div class="box-container">
+      <h1 class="title emerald-text"> Places I staff:</h1>
+      <div class="info-container" style="text-align: center">
+        <p> <img src="static/images/PHLogo.png" alt="Pornhub Logo" height=25 width="25"> <a
+            href="https://discord.gg/pornhub">Pornhub</a> - I am an Administrator for their official Discord server,
+          where I am in charge of the backend server management and bot configuration, using tools built by me and
+          other
+          administrators as well as tools provided by Discord and external developers to assist the moderation team in
+          the day to day operations of the server. </p><br>
+        <p> <img src="static/images/TTLogo.webp" alt="Ticket Tool Logo" height="25" width="25"> <a
+            href="https://tickettool.xyz">Ticket Tool</a> - Ticket Tool is the #1 ticket management service on
+          Discord,
+          being used in over 3.6 million servers. As the Head Moderator and a Support Team Supervisor at Ticket Tool,
+          in
+          additon normal moderation and support duties, I am in charge of managing the Support and Moderation team. I
+          am
+          also a member of the Documentation team, in charge of ensuring the <a
+            href="https://docs.tickettool.xyz">Documentation</a> is up to date.</p><br>
+        <p> <img src="static/images/xelaLogo.png" alt="xelA Logo" height="25" width="25"> <a
+            href="https://xela.dev">xelA</a> - xelA is a multipurpose Discord bot aiming to be the last Discord bot
+          you'll ever need. As the "daemon" of xelA I am in charge of managing the Suport and Whitelisting team
+          ("sudos"), reporting directly to the Community Manager ("sys")</p><br>
+        <p> <img src="static/images/BattlechestLogo.webp" alt="Battlechest Logo" height="25" width="25"> <a
+            href="https://discord.com/invite/battlechest">Battlechest</a> - Battlechest is an Indian Esports
+          Tournament
+          Organizer. As Battlechest's Human Resource Manager I am in charge of the onboarding and offboarding of all
+          staff members. I am also in charge of the staff team's training and internal documentation. </p><br>
+        <p> <img src="static/images/revivalLogo.gif" alt="Revival Logo" height="25" width="25"> <a
+            href="https://discord.gg/revivalgg">Revival</a> - Revival is a multifaceted, multileveled gaming community
+          going from one game to the next as their interest waxes and wanes. At Revival I am a member of the High
+          Council, making strategic decsisions for the future of the clan as well as being the clan's Discord
+          Adminstrator, in charge of all facets of their Discord Server</p><br>
+        <p> <img src="static/images/PDAPlogo.png" alt="Police Data Accessability Project Logo" height="25" width="25">
+          <a href="https://pdap.io">Police Data Accessibility Project</a> - The Police Data Accessability Project is a
+          movement focusing on making police data easily available and viewable by the public. As their Discord
+          Administrator, I am in charge of making sure their Discord server is functional and following best
+          practices.
+        </p><br>
+        <p> <img src="static/images/InProgLogo.png" alt="InProgProj Logo" height="25" width="25"> I have a project I
+          am
+          working on with <a href="https://github.com/Yareaj">Yareaj</a> that I can't say too much about yet... stay
+          tuned 👀
       </div>
+    </div>
 
-      <hr>
+    <hr>
   </section>
 </body>
 

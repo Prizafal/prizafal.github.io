@@ -68,7 +68,6 @@
                 <script src="script.js"></script>
               </div>
             </div>
-
           </section>
         </div>
       </div>
@@ -103,19 +102,20 @@
   <section class="container" id="information">
 
     <div class="box-container">
-      <h1 class="title emerald-text">Me:</h1>
-      <div class="info-container">
-        <p>
-          Hi I'm <span class="green-text">Prizafal</span>, a lot of people just call me Priz. I've been in various
-          corners of the internet for about a decade now, starting off on Minecraft
-          and making my way to Discord at the tail end of 2015. I'm a uni student going for a Bachelor of Science in
-          <span class="light-blue-text">Cybersecruity</span>.
-          I have experience with HMTL, CSS, Java, and Python and am probably gonna learn some more... eventually.
-        </p><br>
+      <h1 class="title emerald-text">Current status:</h1><br>
+      <div class="info-container status">
+        <p style="text-align: center"><img
+            src="https://api.statusbadges.me/badge/status/129308185629687809?style=for-the-badge" alt="status"><a
+            href="https://api.statusbadges.me/openspotify/129308185629687809" target="_blank" rel="noopener"> <img
+              src="https://api.statusbadges.me/badge/playing/129308185629687809?style=for-the-badge" alt="playing"> <img
+              src="https://api.statusbadges.me/badge/spotify/129308185629687809?style=for-the-badge" alt="spotify"></a>
+          <img src="https://api.statusbadges.me/badge/vscode/129308185629687809?style=for-the-badge" alt="vscode"></p>
+        <br>
         <p style="text-align: center">Type in the box below to send me a notification</p><br>
         <div class="buttons">
-          <textarea id="ntfy-input" placeholder="if you want a reply please tell me who you are"></textarea>
-          <br>
+          <textarea cols="50" id="ntfy-input" placeholder="if you want a reply please tell me who you are"></textarea>
+        </div>
+        <div class="buttons">
           <button onclick="javascript:sendNotification()" style="margin-left:10px;">Send</button>
           <script>
             // both
@@ -133,7 +133,16 @@
               send(ntfyInput.value);  // Call send only if the input is not empty
               ntfyInput.value = "";    // Clear the input after sending
             }
-          </script>
+          </script></div>
+        <h1 class="title emerald-text">Me:</h1>
+        <div class="info-container">
+          <p>
+            Hi I'm <span class="green-text">Prizafal</span>, a lot of people just call me Priz. I've been in various
+            corners of the internet for about a decade now, starting off on Minecraft
+            and making my way to Discord at the tail end of 2015. I'm a uni student going for a Bachelor of Science in
+            <span class="light-blue-text">Cybersecruity</span>.
+            I have experience with HMTL, CSS, Java, and Python and am probably gonna learn some more... eventually.
+          </p><br>
         </div>
       </div>
     </div>

@@ -2321,7 +2321,9 @@ form {
 .emerald-text {
     color: #2ecc71
 }
-
+.status{
+    margin-bottom:auto;
+}
 .green-text {
     color: #178747
 }
